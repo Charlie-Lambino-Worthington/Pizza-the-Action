@@ -9,6 +9,13 @@ body {
     padding-left: 0%;
     height: 100vh;
   }
+  /*color and padding*/
+  .contact {
+    padding-top: 80px;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 /*navbar and footer*/
 nav{
     display: flex;   
@@ -79,3 +86,4 @@ footer i:hover {
     color: #BB0019;
     margin-top: 10px;
 }
+/*contact*/
