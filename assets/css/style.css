@@ -13,8 +13,9 @@ body {
   .contact {
     padding-top: 80px;
     text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
+  }
+  h1 {
+    color:#BB0019 ;
   }
 /*navbar and footer*/
 nav{
@@ -87,3 +88,11 @@ footer i:hover {
     margin-top: 10px;
 }
 /*contact*/
+.contact p,
+.contact h5 {
+font-size: large;
+}
+.contact h3 {
+    font-size: xx-large;
+}
+
