@@ -102,3 +102,36 @@ font-size: large;
     padding-left: 10%;
     padding-right: 10%;
 }
+/*gallery*/
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #gallery {
+        column-count: 2 !important;     
+        column-gap: 0;
+    }
+   
+}
+.gallery #img {
+column-count: 4;
+width: 100%;
+line-height: 1em;
+}
+
+#gallery {
+    line-height: 0;
+}
+.spacing {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #gallery {
+        column-count: 2 !important;
+        
+        column-gap: 0;
+    }
+    #gallery img {
+        width: 33% !important;
+    }
+}
