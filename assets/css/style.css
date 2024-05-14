@@ -95,4 +95,10 @@ font-size: large;
 .contact h3 {
     font-size: xx-large;
 }
-
+.contacttext {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
