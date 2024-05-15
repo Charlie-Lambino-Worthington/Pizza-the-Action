@@ -14,6 +14,11 @@ body {
     padding-top: 80px;
     text-align: center;
   }
+  #index {
+    text-align: center;
+padding-left: 5%;
+padding-right: 5%;
+  }
   h1 {
     color:#BB0019 ;
   }
@@ -67,6 +72,7 @@ footer {
     left: 0px;
     margin: 0;
     width: 100vw;
+    z-index: 50;
 }
 
 footer ul {
@@ -123,6 +129,9 @@ line-height: 1em;
 .spacing {
     padding-top: 50px;
     padding-bottom: 60px;
+}
+.spacingsm {
+    padding-bottom: 50px;
 }
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
