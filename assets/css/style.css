@@ -117,9 +117,13 @@ font-size: large;
     }
    
 }
+.gallery h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
 .gallery #img {
-column-count: 4;
 width: 100%;
+padding: 5%;
 line-height: 1em;
 }
 
