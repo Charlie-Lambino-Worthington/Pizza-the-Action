@@ -5,7 +5,7 @@
 }
 body {
     padding: 0;
-    background-color: #7798AB;
+    background-color: antiquewhite;
     padding-left: 0%;
     height: 100vh;
   }
@@ -27,7 +27,7 @@ nav{
     display: flex;   
 }
 .navbar {
-    background-color: #1224CB;
+    background-color: black;
     position: fixed;
     width: auto;
     top: 0;
@@ -45,7 +45,7 @@ nav{
     font-weight: 700;
 }
 .navbar-toggler {
-    background-color: #1224CB; 
+    background-color: black; 
     color: #BB0019;
     border: none;
  }
@@ -64,7 +64,7 @@ form {
      display: flex;
 }
 footer {
-    background-color: #1224CB;
+    background-color: black;
     position: fixed;
     bottom: 0;
     height: 40px;
@@ -93,6 +93,14 @@ footer i:hover {
     color: #BB0019;
     margin-top: 10px;
 }
+/*index*/
+ #hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/fire.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 /*contact*/
 .contact p,
 .contact h5 {
