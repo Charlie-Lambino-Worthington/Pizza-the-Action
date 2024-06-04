@@ -16,9 +16,9 @@ body {
   }
   #index {
     text-align: center;
-padding-left: 5%;
-padding-right: 5%;
+    padding-top: 80px;
   }
+
   h1 {
     color:#BB0019 ;
   }
@@ -37,7 +37,7 @@ nav{
     z-index: 5;
 }
 .logo {
-    padding: 5px !important;
+margin-left: 5px;
 }
 .navbar a,
 .copyright {
@@ -95,14 +95,19 @@ footer i:hover {
 }
 /*index*/
  #hero {
-    height: 600px;
-    width: 100%;
+    height: 500px;
+    width: 100vw;
     background: url("../images/fire.jpg") no-repeat center center/cover;
-    position: relative;
+    overflow: hidden;
 }
-
+#hero #herotext{
+   padding-top: 150px;
+    color: antiquewhite;
+    background-color: rgba(60, 60, 60, 0.6);
+    text-align: center;
+}
 /*contact*/
-.contact p,
+/*.contact p,
 .contact h5 {
 font-size: large;
 }
@@ -119,7 +124,7 @@ font-size: large;
 /*gallery*/
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #gallery {
+  /*  #gallery {
         column-count: 2 !important;     
         column-gap: 0;
     }
@@ -147,7 +152,7 @@ line-height: 1em;
 }
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #gallery {
+  /*  #gallery {
         column-count: 2 !important;
         
         column-gap: 0;
