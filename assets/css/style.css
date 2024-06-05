@@ -106,6 +106,12 @@ footer i:hover {
     background-color: rgba(60, 60, 60, 0.6);
     text-align: center;
 }
+
+.gallery #img {
+    width: 100%;
+    padding: 5%;
+    line-height: 1em;
+    }
 /*contact*/
 /*.contact p,
 .contact h5 {
@@ -142,12 +148,11 @@ line-height: 1em;
 
 #gallery {
     line-height: 0;
-}
+} */
 .spacing {
-    padding-top: 50px;
-    padding-bottom: 60px;
+padding: 15px !important;
 }
-.spacingsm {
+/*.spacingsm {
     padding-bottom: 50px;
 }
 /* Media query: large or landscape phones (576px and up) */
