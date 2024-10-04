@@ -29,8 +29,6 @@ nav{
 }
 .navbar {
     background-color: black;
-    width: fit-content;
-    overflow: hidden;
     position: fixed;
     width: auto;
     top: 0;
@@ -97,11 +95,51 @@ footer i:hover {
     color: #BB0019;
     margin-top: 10px;
 }
-/*menu*/
+/*index*/
+ #hero {
+    height: 500px;
+    width: 100vw;
+    background: url("../images/fire.jpg") no-repeat center center/cover;
+    overflow: hidden;
+}
+#hero #herotext{
+   padding-top: 150px;
+    color: antiquewhite;
+    background-color: rgba(60, 60, 60, 0.6);
+    text-align: center;
+}
+
+#indextext {
+    padding: 5%;
+}
+
+.google-reviews-container {
+    max-width: 25%; /* Ensure it fits the screen */
+    overflow-x: hidden; /* Hide horizontal scroll if any overflow */
+    padding: 0 15px; /* Add padding to prevent content touching screen edges */
+    box-sizing: border-box;
+  }
+ 
+  .sk-ww-google-reviews {
+    width: 100%;
+    max-width: 100%; /* Prevent content from expanding beyond viewport */
+    margin: 0 auto; /* Center it */
+    overflow: hidden;
+  }
+
+
+/*gallery*/
+.gallery #img {
+    width: 100%;
+    padding: 5%;
+    line-height: 1em;
+    }
+
+ /*menu*/
 .menupage {
     margin: 10%;
     text-align: center;
-    
+   
 }
 .menupage li {
     list-style-type: none;
@@ -112,48 +150,16 @@ footer i:hover {
     font-weight: 600;
     font-size: large;
 }
-
-/*index*/
- #hero {
-    height: 400px;
-    width: 100vw;
-    background: url("../images/fire.jpg") no-repeat center center/cover;
-    overflow: hidden;
-}
-#hero #herotext{
-   padding-top: 150px;
-    color: antiquewhite;
-    background-color: rgba(60, 60, 60, 0.6);
-    text-align: center;
-    overflow: hidden;
-}
-.google-reviews-container {
-    max-width: 100%; /* Ensure it fits the screen */
-    overflow-x: hidden; /* Hide horizontal scroll if any overflow */
-    padding: 0 15px; /* Add padding to prevent content touching screen edges */
-    box-sizing: border-box;
-  }
-  
-  .sk-ww-google-reviews {
-    width: 100%;
-    max-width: 100%; /* Prevent content from expanding beyond viewport */
-    margin: 0 auto; /* Center it */
-    overflow: hidden;
-  }
-  
-  @media (max-width: 768px) {
-    .sk-ww-google-reviews {
-      width: 100%; /* Ensure responsiveness on smaller devices */
-      overflow: hidden;
-    }
-  }
-  }
-/*gallery*/
-.gallery #img {
-    
    
+.card-body {
+    background: url("../images/1728052855544-db01db08-627c-4c65-9296-89eb678061fe_1.jpg") repeat-y center;
+    background-size: 100% auto; /* Stretches to fit the width, height adjusts proportionally */
+    font-weight: 700;
+    font-size: larger;
+
+}
 /*contact*/
-/*.contact p,
+.contact p,
 .contact h5 {
 font-size: large;
 }
@@ -167,42 +173,8 @@ font-size: large;
     padding-left: 10%;
     padding-right: 10%;
 }
-/*gallery*/
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-  /*  #gallery {
-        column-count: 2 !important;     
-        column-gap: 0;
-    }
-   
-}
-.gallery h1 {
-    text-align: center;
-    padding-bottom: 10px;
-}
-.gallery #img {
-width: 100%;
-padding: 5%;
-line-height: 1em;
-}
 
-#gallery {
-    line-height: 0;
-} */
+/*spacing*/
 .spacing {
 padding: 15px !important;
-}
-/*.spacingsm {
-    padding-bottom: 50px;
-}
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-  /*  #gallery {
-        column-count: 2 !important;
-        
-        column-gap: 0;
-    }
-    #gallery img {
-        width: 33% !important;
-    }
 }
