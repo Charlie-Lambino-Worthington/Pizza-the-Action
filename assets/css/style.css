@@ -93,6 +93,22 @@ footer i:hover {
     color: #BB0019;
     margin-top: 10px;
 }
+/*menu*/
+.menupage {
+    margin: 10%;
+    text-align: center;
+    
+}
+.menupage li {
+    list-style-type: none;
+}
+.menupage button {
+    text-decoration: none;
+    color: #BB0019;
+    font-weight: 600;
+    font-size: large;
+}
+
 /*index*/
  #hero {
     height: 500px;
