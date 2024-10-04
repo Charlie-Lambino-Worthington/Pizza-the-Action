@@ -8,6 +8,7 @@ body {
     background-color: antiquewhite;
     padding-left: 0%;
     height: 100vh;
+    overflow-x: hidden;
   }
   /*color and padding*/
   .contact {
@@ -28,6 +29,8 @@ nav{
 }
 .navbar {
     background-color: black;
+    width: fit-content;
+    overflow: hidden;
     position: fixed;
     width: auto;
     top: 0;
@@ -35,6 +38,7 @@ nav{
     right: 0;
     padding: 0;
     z-index: 5;
+    text-align: center;
 }
 .logo {
 margin-left: 5px;
@@ -111,7 +115,7 @@ footer i:hover {
 
 /*index*/
  #hero {
-    height: 500px;
+    height: 400px;
     width: 100vw;
     background: url("../images/fire.jpg") no-repeat center center/cover;
     overflow: hidden;
@@ -121,13 +125,33 @@ footer i:hover {
     color: antiquewhite;
     background-color: rgba(60, 60, 60, 0.6);
     text-align: center;
+    overflow: hidden;
 }
-
-.gallery #img {
+.google-reviews-container {
+    max-width: 100%; /* Ensure it fits the screen */
+    overflow-x: hidden; /* Hide horizontal scroll if any overflow */
+    padding: 0 15px; /* Add padding to prevent content touching screen edges */
+    box-sizing: border-box;
+  }
+  
+  .sk-ww-google-reviews {
     width: 100%;
-    padding: 5%;
-    line-height: 1em;
+    max-width: 100%; /* Prevent content from expanding beyond viewport */
+    margin: 0 auto; /* Center it */
+    overflow: hidden;
+  }
+  
+  @media (max-width: 768px) {
+    .sk-ww-google-reviews {
+      width: 100%; /* Ensure responsiveness on smaller devices */
+      overflow: hidden;
     }
+  }
+  }
+/*gallery*/
+.gallery #img {
+    
+   
 /*contact*/
 /*.contact p,
 .contact h5 {
