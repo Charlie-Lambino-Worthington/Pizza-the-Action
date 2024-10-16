@@ -156,7 +156,7 @@ footer i:hover {
     background-size: 100% auto; /* Stretches to fit the width, height adjusts proportionally */
     font-weight: 700;
     font-size: larger;
-
+   
 }
 /*contact*/
 .contact p,
@@ -174,6 +174,12 @@ font-size: large;
     padding-right: 10%;
 }
 
+/*contact*/
+.about {
+    margin: 10%;
+    text-align: center;
+   
+}
 /*spacing*/
 .spacing {
 padding: 15px !important;
