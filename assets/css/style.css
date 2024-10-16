@@ -105,7 +105,7 @@ footer i:hover {
 #hero #herotext{
    padding-top: 150px;
     color: antiquewhite;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.8);
     text-align: center;
 }
 
@@ -156,8 +156,9 @@ footer i:hover {
     background-size: 100% auto; /* Stretches to fit the width, height adjusts proportionally */
     font-weight: 700;
     font-size: larger;
-   
+    background-color: rgba(240, 240, 240, 0.8);
 }
+
 /*contact*/
 .contact p,
 .contact h5 {
